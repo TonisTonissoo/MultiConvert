@@ -30,18 +30,43 @@ multi-convert/
 ├── backend/
 
 │ ├── converters/ # Kõik konverterite skriptid
+
 │ │ └── docx_to_pdf.py
+
 │ ├── temp/ # Ajutised failid (DOCX ja PDF)
+
 │ ├── server.ts # Express API
+
 │ ├── package.json
+
 │ └── tsconfig.json
+
 │
+
 ├── frontend/
+
 │ ├── src/
+
 │ │ ├── components/
+
 │ │ │ └── UploadForm.tsx
+
 │ │ └── App.tsx
+
 │ ├── package.json
+
 │ └── tsconfig.json
+
 │
+
 └── README.md
+
+
+---
+
+### Tuleviku plaan
+
+1. Lisada rohkem konvertereid `backend/converters` kausta.  
+2. Luua universaalne API, mis otsustab konversiooni tüübi faili tüübi või valiku järgi.  
+3. Täiustada front-endi, et näidata erinevaid konversiooni võimalusi.  
+4. Lisada batch konvertimise ja logimise funktsionaalsus.  
