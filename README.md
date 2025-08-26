@@ -29,26 +29,7 @@ multi-convert/
 ├── backend/
 │ ├── converters/ # Kõik konverterite skriptid
 │ │ └── docx_to_pdf.py
-│ ├── temp/ # Ajutised failid
-│ ├── server.ts # Express API
-│ ├── package.json
-│ └── tsconfig.json
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ └── UploadForm.tsx
-│ │ └── App.tsx
-│ ├── package.json
-│ └── tsconfig.json
-│
-└── README.md
-
-multi-convert/
-├── backend/
-│ ├── converters/ # Kõik konverterite skriptid
-│ │ └── docx_to_pdf.py
-│ ├── temp/ # Ajutised failid
+│ ├── temp/ # Ajutised failid (DOCX ja PDF)
 │ ├── server.ts # Express API
 │ ├── package.json
 │ └── tsconfig.json
