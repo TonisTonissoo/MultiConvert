@@ -26,7 +26,9 @@ Tulevikus plaanis lisada:
 ## Projekti struktuur
 
 multi-convert/
+
 ├── backend/
+
 │ ├── converters/ # Kõik konverterite skriptid
 │ │ └── docx_to_pdf.py
 │ ├── temp/ # Ajutised failid (DOCX ja PDF)
